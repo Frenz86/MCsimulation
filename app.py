@@ -39,4 +39,6 @@ def run_simulation():
     return json.dumps(data)
 
 if __name__ == '__main__':
-    app.run(port=5002, debug=True)
+    app.run()
+
+
